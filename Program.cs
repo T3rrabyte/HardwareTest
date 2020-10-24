@@ -40,7 +40,7 @@ namespace HardwareTest {
 				data.Add(row);
 			}
 
-			string path = Environment.GetEnvironmentVariable("USERPROFILE") + "/.t3/HardwareTest/";
+			string path = Environment.GetEnvironmentVariable("USERPROFILE") + "/.t3/HardwareIndexUtility/";
 			Directory.CreateDirectory(path);
 			Console.WriteLine("Exporting data to " + path);
 
